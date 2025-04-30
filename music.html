@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Music Player</title>
+  <link rel="stylesheet" href="player.css">
+  <link rel="icon" href="assets/icon.jpg">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css">
+</head>
+<body>
+  
+  <div class="audio-player">
+    <img src="/assets/52bars.jpeg" alt="">
+    <div class="time">
+      <span id="current-time">00:00</span>
+      <input type="range" id="bar" value="0" />
+      <span id="duration">00:00</span>
+    </div>
+    <div class="data">
+      <p id="song">Name</p>
+      <p id="artist">Name</p>
+    </div>
+    <div class="controls">
+      <span id="backward"><i class="fa-solid fa-backward-step"></i></span>
+      <span id="play"><i class="fa-solid fa-play"></i></span>
+      <span id="forward"><i class="fa-solid fa-forward-step"></i></span>
+      <span id="random"><i class="fa-solid fa-shuffle"></i></span>
+      <input type="range" id="volume" max="1" min="0" step="0.2">
+      <span id="mute"><i class="fa-solid fa-volume-high"></i></span>
+    </div>
+    
+    <audio class="audio" src="/"></audio>
+  </div>
+  <script src="app.js"></script>
+</body> 
+</html>
