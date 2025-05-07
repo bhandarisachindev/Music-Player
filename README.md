@@ -12,7 +12,6 @@
 - CSS3 
 - JavaScript (DOM Manipulation, Audio API)
 
-
 ## 📸 Screenshot & 🖼 UI Preview
 [Click here to Live Preview](https://music-player-alpha-lovat.vercel.app/)
 
