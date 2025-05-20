@@ -204,7 +204,6 @@ function forward(){
   if(count<history.length){
     num=history[count];
     update();
-    console.log(num);
     count++;
   }else{
     num++;
